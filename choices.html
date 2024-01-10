@@ -92,9 +92,10 @@
     <h5>Gas Fee/Fare Charge is 250PHP for N. LUZON, S. LUZON <br> and 200PHP for NCR. <br>We will do our best to provide services to other areas in the future.<br>
         Thank you for your support to our business.</h5><br>
 
-    <button type="button" class="btn col btn-primary m-3" data-bs-toggle="modal" data-bs-target="#mymodal"><b>Accept to Continue</b></button>
-    <button type="button" class="btn btn-primary"><a href = "#" style="text-decoration: none; color: white;"><b>Cancel</b></a></button>
+        <a href="form.html" class="btn btn-primary">Primary link</a>
+
 </div>
+
 
 
 <div class="d-none03" id="ratelalamove">
@@ -142,8 +143,8 @@
    
         </tbody>
       </table><br><br>
-    <button type="button" class="btn col btn-primary m-3" data-bs-toggle="modal" data-bs-target="#mymodal"><b>Continue</button>
-    <button type="button" class="btn btn-primary"><a href = "#" style="text-decoration: none; color: white;"><b>Cancel</b></a></button>
+      <a href="form.html" class="btn btn-primary">Primary link</a>
+      <a href="#" class="btn btn-primary">Cancel</a>
 </div>
 
 <div class="d-none04" id="ratelbc">
@@ -191,8 +192,8 @@
    
         </tbody>
       </table><br><br><br>
-    <button type="button" class="btn col btn-primary m-3" data-bs-toggle="modal" data-bs-target="#mymodal"><b>Continue</button>
-        <button type="button" class="btn btn-primary"><a href = "#" style="text-decoration: none; color: white;"><b>Cancel</b></a></button>
+      <a href="form.html" class="btn btn-primary">Primary link</a>
+      <a href="#" class="btn btn-primary">Cancel</a>
 </div>
 
 
@@ -240,90 +241,6 @@
                 } 
     }
     </script>
-
-
-
-<div class="modal" id="mymodal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="mx-auto">Device Information</h3>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-
-            <div class="modal-body">
-
-                <form action="mymodaltarget" method="POST">
-
-
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="brandname" class="form-label">Model Name</label>
-                            <input type="text" class="form-control" id="brandname" placeholder="Brand Name" required>
-                        </div>
-                        <div class="col-4">
-                            <label for="model" class="form-label">Serial Number</label>
-                            <input type="text" class="form-control" id="model" placeholder="Model Name" required>
-                        </div>
-                        <div class="col-4 py-2">
-                            <label for="Producttype" class="form-label"></label>
-                            <select class="form-select" id="producttype" required>
-                            <option selected disabled value="">Product Type</option>
-                            <option>Laptop</option>
-                            <option>Desktop CPU</option>
-                            <option>Printer</option>
-                            <option>Monitor</option>
-                            <option>Computer Accessories</option>
-                            </select>
-                        </div>
-                    </div>
-           
-                
-                    <div class="row">
-                        <div class="col py-2">
-                            <label for="upload" class="form-label">Upload Proof of purchase.</label>
-                            <input class="form-control" type="file" id="upload">
-                    </div>
-                    
-                    
-                    </div>
-
-                    <div class="row">
-                        <div class="col">
-                            <label for="others" class="form-label">Problem:<br>
-                            </label>
-                            <textarea class="form-control" rows="3" id="others" placeholder="Please specify the problem" required></textarea>
-                        </div>
-                    </div>
-                    <div class="row py-4">
-                        <div class="col">
-                        <label for="address" class="form-label"> Home Address/ Company Address:<br>
-                            Format: House No./Building No. St., Brgy. Municipality, Province
-                        </label>
-                        <textarea class="form-control" rows="2" id="address" placeholder="Provide Address for Repair. Follow Address Format" required></textarea>
-                        </div>
-                        
-                    </div> 
-                    <div class="row"> 
-                        <div class="col-12 text-center">
-                            <button class="btn btn-primary" type="submit" onclick="alert('Information Successfully Submitted')">Submit form</a></button>
-                        </div>
-                    </div>
-                </form>
-    
-            </div>
-
-             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-   </div>
-
-
-</div>
-
-<script src="deviceInfo.js"></script>
 
 </body>
 </html>
